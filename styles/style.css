@@ -158,6 +158,27 @@ main{
 .resume-download-cv{
     margin-top: 50px;
 }
+/*footer styles*/
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+
+}
+footer input[type="text"], footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
 /* media query */
 
 @media screen and (mix-width: 576px) {
@@ -187,7 +208,16 @@ main{
        .about{
         padding: 20px;
     }
-    .skills-container, .resume-container{
+    .skills-container, .resume-container, footer{
         flex-direction: column;
+    }
+    footer{
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"],footer textarea{
+        width: calc(100% - 40px);
     }
 }
