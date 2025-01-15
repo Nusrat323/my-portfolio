@@ -118,6 +118,12 @@ main{
 /* media query */
 
 @media screen and (mix-width: 576px) {
+   .about-items{
+    flex-direction: column;
+   }
+   .about{
+    padding: 20px;
+}
     nav,
     nav > ul,
     .banner{
