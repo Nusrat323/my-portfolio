@@ -18,7 +18,6 @@ const Home = () => {
             
              <StarBackgroound></StarBackgroound>
 
-             
               <Navbar></Navbar>
 
                <main>
