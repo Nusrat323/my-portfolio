@@ -111,19 +111,19 @@ const ContactSection = () => {
             <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div>
-                <label htmlFor="name" className="block text-sm font-medium mb-2">Your Name</label>
+                
                 <input
                   type="text"
                   id="name"
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="Name"
+                  placeholder="Your Name"
                 />
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-medium mb-2">Your Email</label>
+                
                 <input
                   type="text"
                   id="email"
@@ -135,7 +135,7 @@ const ContactSection = () => {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-medium mb-2">Your Message</label>
+                
                 <textarea
                   id="message"
                   name="message"
