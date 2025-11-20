@@ -11,7 +11,7 @@ const projects = [
         image: "/projects/project1.png",
         tags: ["React", "Tailwind", "Responsive UI/UX"],
         demoUrl: "https://aquamarine-unicorn-6414d3.netlify.app/",
-        githubUrl: "#",
+        githubUrl: "https://github.com/Nusrat323/restaurant",
       },
       {
         id: 2,
@@ -21,7 +21,7 @@ const projects = [
         image: "/projects/project2.png",
         tags: ["React", "Tailwind", "E-commerce UI/UX"],
         demoUrl: "https://gentlify-d55df.web.app/",
-        githubUrl: "#",
+        githubUrl: "https://github.com/Nusrat323/menswear",
       },
       {
         id: 3,
@@ -31,7 +31,8 @@ const projects = [
         image: "/projects/project3.png",
         tags: ["React", "Tailwind CSS", "Admin Panel", "Node.js", "Responsive UI/UX"],
         demoUrl: "https://labidkhan.netlify.app/",
-        githubUrl: "#",
+        githubUrl: "https://github.com/Nusrat323/labid-frontend",
+        
       },
       {
         id: 4,
@@ -41,7 +42,7 @@ const projects = [
         image: "/projects/project4.png",
         tags: ["React", "Node.js", "Express", "MongoDB", "Firebase", "Tailwind CSS", ],
         demoUrl: "https://green-aura-f6427.web.app/",
-        githubUrl: "#",
+        githubUrl: "https://github.com/Nusrat323/assignment10",
       }
 ];
 
