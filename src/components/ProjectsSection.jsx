@@ -36,6 +36,23 @@ const projects = [
       },
       {
         id: 4,
+        title: "Azaan – Call to Prayer",
+        description:
+          "A frontend Islamic web application that plays live 5-waqt Azaan automatically based on the user’s country and prayer times. Built with a peaceful, calming UI, smooth animations, daily short duas, and Surah audio playback. Fully responsive and optimized for all devices to provide a serene user experience.",
+        image: "/projects/azaan.png",
+        tags: [
+          "React",
+          "Tailwind CSS",
+          "Framer Motion",
+          "Islamic Audio",
+          "Responsive Design"
+        ],
+        demoUrl: "https://azaan1.netlify.app/",
+        githubUrl: "https://github.com/Nusrat323/azaan"
+      },
+      
+      {
+        id: 4,
         title: "Plant Care Website",
         description:
           "A small full-stack plant-care web application featuring plant listings, an upload page, backend APIs, Firebase authentication, and the ability to manage your own uploaded plants.",
