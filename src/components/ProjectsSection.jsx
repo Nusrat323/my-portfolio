@@ -39,7 +39,7 @@ const projects = [
         title: "Azaan – Call to Prayer",
         description:
           "A frontend Islamic web application that plays live 5-waqt Azaan automatically based on the user’s country and prayer times. Built with a peaceful, calming UI, smooth animations, daily short duas, and Surah audio playback. Fully responsive and optimized for all devices to provide a serene user experience.",
-        image: "/projects/azaan.png",
+        image: "/projects/project4.png",
         tags: [
           "React",
           "Tailwind CSS",
@@ -52,15 +52,26 @@ const projects = [
       },
       
       {
-        id: 4,
+        id: 5,
         title: "Plant Care Website",
         description:
           "A small full-stack plant-care web application featuring plant listings, an upload page, backend APIs, Firebase authentication, and the ability to manage your own uploaded plants.",
-        image: "/projects/project4.png",
+        image: "/projects/project5.png",
         tags: ["React", "Node.js", "Express", "MongoDB", "Firebase", "Tailwind CSS", ],
         demoUrl: "https://green-aura-f6427.web.app/",
         githubUrl: "https://github.com/Nusrat323/assignment10",
+      },
+      {
+        id: 6,
+        title: "SwiftCart E-commerce Website",
+        description:
+          "A responsive frontend e-commerce website with dynamic product fetching from Fake Store API, interactive product modals, category filters, and a cart sidebar. Features multiple pages including Home, Products, About, and Contact with responsive design.",
+        image: "/projects/project6.png",
+        tags: ["HTML", "Tailwind CSS", "JavaScript", "API Integration", "Responsive Design"],
+        demoUrl: "https://swiftcart01.netlify.app/",
+        githubUrl: "https://github.com/Nusrat323/swiftcart",
       }
+      
 ];
 
 const cardVariants = {
