@@ -3,26 +3,28 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const projects = [
-    {
-        id: 1,
-        title: "Restaurant Frontend Website",
-        description:
-          "A modern, fully responsive multi-page restaurant website built using React and Tailwind CSS. Designed with a clean UI, elegant layout, and optimized performance.",
-        image: "/projects/project1.png",
-        tags: ["React", "Tailwind", "Responsive UI/UX"],
-        demoUrl: "https://aquamarine-unicorn-6414d3.netlify.app/",
-        githubUrl: "https://github.com/Nusrat323/restaurant",
-      },
-      {
-        id: 2,
-        title: "E-commerce Frontend Website",
-        description:
-          "A clean and responsive e-commerce website interface featuring product listings, filtering, shopping cart, checkout page, and dynamic UI components.",
-        image: "/projects/project2.png",
-        tags: ["React", "Tailwind", "E-commerce UI/UX"],
-        demoUrl: "https://gentlify-d55df.web.app/",
-        githubUrl: "https://github.com/Nusrat323/menswear",
-      },
+  {
+    id: 1,
+    title: "Plant Care Website",
+    description:
+      "A small full-stack plant-care web application featuring plant listings, an upload page, backend APIs, Firebase authentication, and the ability to manage your own uploaded plants.",
+    image: "/projects/project5.png",
+    tags: ["React", "Node.js", "Express", "MongoDB", "Firebase", "Tailwind CSS", ],
+    demoUrl: "https://green-aura-f6427.web.app/",
+    githubUrl: "https://github.com/Nusrat323/assignment10",
+  },
+  {
+    id: 2,
+    title: "Restaurant Frontend Website",
+    description:
+      "A modern, fully responsive multi-page restaurant website built using React and Tailwind CSS. Designed with a clean UI, elegant layout, and optimized performance.",
+    image: "/projects/project1.png",
+    tags: ["React", "Tailwind", "Responsive UI/UX"],
+    demoUrl: "https://aquamarine-unicorn-6414d3.netlify.app/",
+    githubUrl: "https://github.com/Nusrat323/restaurant",
+  },
+    
+      
       {
         id: 3,
         title: "Photography Website with Admin Panel",
@@ -36,6 +38,16 @@ const projects = [
       },
       {
         id: 4,
+        title: "E-commerce Frontend Website",
+        description:
+          "A clean and responsive e-commerce website interface featuring product listings, filtering, shopping cart, checkout page, and dynamic UI components.",
+        image: "/projects/project2.png",
+        tags: ["React", "Tailwind", "E-commerce UI/UX"],
+        demoUrl: "https://gentlify-d55df.web.app/",
+        githubUrl: "https://github.com/Nusrat323/menswear",
+      },
+      {
+        id: 5,
         title: "Azaan – Call to Prayer",
         description:
           "A frontend Islamic web application that plays live 5-waqt Azaan automatically based on the user’s country and prayer times. Built with a peaceful, calming UI, smooth animations, daily short duas, and Surah audio playback. Fully responsive and optimized for all devices to provide a serene user experience.",
@@ -51,16 +63,7 @@ const projects = [
         githubUrl: "https://github.com/Nusrat323/azaan"
       },
       
-      {
-        id: 5,
-        title: "Plant Care Website",
-        description:
-          "A small full-stack plant-care web application featuring plant listings, an upload page, backend APIs, Firebase authentication, and the ability to manage your own uploaded plants.",
-        image: "/projects/project5.png",
-        tags: ["React", "Node.js", "Express", "MongoDB", "Firebase", "Tailwind CSS", ],
-        demoUrl: "https://green-aura-f6427.web.app/",
-        githubUrl: "https://github.com/Nusrat323/assignment10",
-      },
+      
       {
         id: 6,
         title: "SwiftCart E-commerce Website",
