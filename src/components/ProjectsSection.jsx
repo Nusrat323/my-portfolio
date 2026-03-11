@@ -73,6 +73,16 @@ const projects = [
         tags: ["HTML", "Tailwind CSS", "JavaScript", "API Integration", "Responsive Design"],
         demoUrl: "https://swiftcart01.netlify.app/",
         githubUrl: "https://github.com/Nusrat323/swiftcart",
+      },
+      {
+        id: 7,
+        title: "BeatWave Music Player",
+        description:
+          "A modern, responsive web-based music player built with HTML, CSS, and JavaScript. Features include play/pause, next/previous track, shuffle and repeat, dynamic playlist, volume control, and a sleek glassmorphic UI. The background dynamically adapts to the currently playing song's album cover for a premium experience.",
+        image: "/projects/project7.png",
+        tags: ["HTML", "CSS", "JavaScript", "Responsive Design", "Audio Player", "UI/UX"],
+        demoUrl: "https://beatwave01.netlify.app/",
+        githubUrl: "https://github.com/Nusrat323/CodeAlpha_music-player"
       }
       
 ];
