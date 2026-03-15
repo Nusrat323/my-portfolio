@@ -83,6 +83,16 @@ const projects = [
         tags: ["HTML", "CSS", "JavaScript", "Responsive Design", "Audio Player", "UI/UX"],
         demoUrl: "https://beatwave01.netlify.app/",
         githubUrl: "https://github.com/Nusrat323/CodeAlpha_music-player"
+      },
+      {
+        id: 8,
+        title: "Calculator",
+        description:
+          "A sleek and responsive web-based calculator built with HTML, CSS, and JavaScript. Features basic arithmetic operations with a transparent glassmorphism UI, smooth button interactions, and a clean modern layout designed for both desktop and mobile users.",
+        image: "/projects/project8.png",
+        tags: ["HTML", "CSS", "JavaScript", "Responsive Design", "Calculator", "Glassmorphism UI"],
+        demoUrl: "https://math-assistant1.netlify.app/",
+        githubUrl: "https://github.com/Nusrat323/CodeAlpha_calculator"
       }
       
 ];
