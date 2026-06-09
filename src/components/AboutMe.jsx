@@ -13,7 +13,7 @@ const AboutMe = () => {
                     <div className='space-y-6'>
                         <h3 className='text-2xl font-semibold'> Frontend Developer</h3>
                         <p className='text-muted-foreground'>
-                            Passionate Frontend Developer & Tech Creator with 1+ year of experience, building modern, responsive, and accessible web applications. I specialize in creating polished, user-friendly interfaces that deliver seamless web experiences.
+                            Passionate Frontend Developer & Tech Creator with 2+ year of experience, building modern, responsive, and accessible web applications. I specialize in creating polished, user-friendly interfaces that deliver seamless web experiences.
                         </p>
 
                         <p className='text-muted-foreground'>

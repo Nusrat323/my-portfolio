@@ -3,8 +3,26 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const projects = [
+
   {
     id: 1,
+    title: "FluxFame AI Automation Agency Website",
+    description:
+      "A modern agency website featuring premium glassmorphism UI, responsive layouts, smooth animations, reusable components, and a conversion-focused user experience.",
+    image: "/projects/project8.png",
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Custom CSS",
+      "Responsive Design",
+      "Swiper.js"
+    ],
+    demoUrl: "https://www.fluxfame.site",
+    githubUrl: "https://github.com/Nusrat323/fluxfame"
+  },
+  {
+    id: 2,
     title: "Plant Care Website",
     description:
       "A small full-stack plant-care web application featuring plant listings, an upload page, backend APIs, Firebase authentication, and the ability to manage your own uploaded plants.",
@@ -14,7 +32,7 @@ const projects = [
     githubUrl: "https://github.com/Nusrat323/assignment10",
   },
   {
-    id: 2,
+    id: 3,
     title: "Restaurant Frontend Website",
     description:
       "A modern, fully responsive multi-page restaurant website built using React and Tailwind CSS. Designed with a clean UI, elegant layout, and optimized performance.",
@@ -26,7 +44,7 @@ const projects = [
     
       
       {
-        id: 3,
+        id: 4,
         title: "Photography Website with Admin Panel",
         description:
           "A professional photography portfolio website with an admin dashboard to manage galleries and content. Includes smooth animations and a stylish, mobile-friendly UI.",
@@ -37,7 +55,7 @@ const projects = [
         
       },
       {
-        id: 4,
+        id: 5,
         title: "E-commerce Frontend Website",
         description:
           "A clean and responsive e-commerce website interface featuring product listings, filtering, shopping cart, checkout page, and dynamic UI components.",
@@ -47,7 +65,7 @@ const projects = [
         githubUrl: "https://github.com/Nusrat323/menswear",
       },
       {
-        id: 5,
+        id: 6,
         title: "Azaan – Call to Prayer",
         description:
           "A frontend Islamic web application that plays live 5-waqt Azaan automatically based on the user’s country and prayer times. Built with a peaceful, calming UI, smooth animations, daily short duas, and Surah audio playback. Fully responsive and optimized for all devices to provide a serene user experience.",
@@ -65,7 +83,7 @@ const projects = [
       
       
       {
-        id: 6,
+        id: 7,
         title: "SwiftCart E-commerce Website",
         description:
           "A responsive frontend e-commerce website with dynamic product fetching from Fake Store API, interactive product modals, category filters, and a cart sidebar. Features multiple pages including Home, Products, About, and Contact with responsive design.",
@@ -75,7 +93,7 @@ const projects = [
         githubUrl: "https://github.com/Nusrat323/swiftcart",
       },
       {
-        id: 7,
+        id: 8,
         title: "BeatWave Music Player",
         description:
           "A modern, responsive web-based music player built with HTML, CSS, and JavaScript. Features include play/pause, next/previous track, shuffle and repeat, dynamic playlist, volume control, and a sleek glassmorphic UI. The background dynamically adapts to the currently playing song's album cover for a premium experience.",
@@ -84,16 +102,7 @@ const projects = [
         demoUrl: "https://beatwave01.netlify.app/",
         githubUrl: "https://github.com/Nusrat323/CodeAlpha_music-player"
       },
-      {
-        id: 8,
-        title: "Calculator",
-        description:
-          "A sleek and responsive web-based calculator built with HTML, CSS, and JavaScript. Features basic arithmetic operations with a transparent glassmorphism UI, smooth button interactions, and a clean modern layout designed for both desktop and mobile users.",
-        image: "/projects/project8.png",
-        tags: ["HTML", "CSS", "JavaScript", "Responsive Design", "Calculator", "Glassmorphism UI"],
-        demoUrl: "https://math-assistant1.netlify.app/",
-        githubUrl: "https://github.com/Nusrat323/CodeAlpha_calculator"
-      }
+      
       
 ];
 
