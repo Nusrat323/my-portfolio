@@ -23,13 +23,14 @@ const projects = [
   },
   {
     id: 2,
-    title: "Plant Care Website",
+    title: "Photography Website with Admin Panel",
     description:
-      "A small full-stack plant-care web application featuring plant listings, an upload page, backend APIs, Firebase authentication, and the ability to manage your own uploaded plants.",
-    image: "/projects/project5.png",
-    tags: ["React", "Node.js", "Express", "MongoDB", "Firebase", "Tailwind CSS", ],
-    demoUrl: "https://green-aura-f6427.web.app/",
-    githubUrl: "https://github.com/Nusrat323/assignment10",
+      "A professional photography portfolio website with an admin dashboard to manage galleries and content. Includes smooth animations and a stylish, mobile-friendly UI.",
+    image: "/projects/project3.png",
+    tags: ["React", "Tailwind CSS", "Admin Panel", "Node.js", "Responsive UI/UX"],
+    demoUrl: "https://labidkhan.netlify.app/",
+    githubUrl: "https://github.com/Nusrat323/labid-frontend",
+    
   },
   {
     id: 3,
@@ -41,21 +42,34 @@ const projects = [
     demoUrl: "https://aquamarine-unicorn-6414d3.netlify.app/",
     githubUrl: "https://github.com/Nusrat323/restaurant",
   },
-    
-      
+  {
+    id: 4,
+    title: "Plant Care Website",
+    description:
+      "A small full-stack plant-care web application featuring plant listings, an upload page, backend APIs, Firebase authentication, and the ability to manage your own uploaded plants.",
+    image: "/projects/project5.png",
+    tags: ["React", "Node.js", "Express", "MongoDB", "Firebase", "Tailwind CSS", ],
+    demoUrl: "https://green-aura-f6427.web.app/",
+    githubUrl: "https://github.com/Nusrat323/assignment10",
+  },
+  {
+    id: 5,
+    title: "Azaan – Call to Prayer",
+    description:
+      "A frontend Islamic web application that plays live 5-waqt Azaan automatically based on the user’s country and prayer times. Built with a peaceful, calming UI, smooth animations, daily short duas, and Surah audio playback. Fully responsive and optimized for all devices to provide a serene user experience.",
+    image: "/projects/project4.png",
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Islamic Audio",
+      "Responsive Design"
+    ],
+    demoUrl: "https://azaan1.netlify.app/",
+    githubUrl: "https://github.com/Nusrat323/azaan"
+  },
       {
-        id: 4,
-        title: "Photography Website with Admin Panel",
-        description:
-          "A professional photography portfolio website with an admin dashboard to manage galleries and content. Includes smooth animations and a stylish, mobile-friendly UI.",
-        image: "/projects/project3.png",
-        tags: ["React", "Tailwind CSS", "Admin Panel", "Node.js", "Responsive UI/UX"],
-        demoUrl: "https://labidkhan.netlify.app/",
-        githubUrl: "https://github.com/Nusrat323/labid-frontend",
-        
-      },
-      {
-        id: 5,
+        id: 6,
         title: "E-commerce Frontend Website",
         description:
           "A clean and responsive e-commerce website interface featuring product listings, filtering, shopping cart, checkout page, and dynamic UI components.",
@@ -63,22 +77,6 @@ const projects = [
         tags: ["React", "Tailwind", "E-commerce UI/UX"],
         demoUrl: "https://gentlify-d55df.web.app/",
         githubUrl: "https://github.com/Nusrat323/menswear",
-      },
-      {
-        id: 6,
-        title: "Azaan – Call to Prayer",
-        description:
-          "A frontend Islamic web application that plays live 5-waqt Azaan automatically based on the user’s country and prayer times. Built with a peaceful, calming UI, smooth animations, daily short duas, and Surah audio playback. Fully responsive and optimized for all devices to provide a serene user experience.",
-        image: "/projects/project4.png",
-        tags: [
-          "React",
-          "Tailwind CSS",
-          "Framer Motion",
-          "Islamic Audio",
-          "Responsive Design"
-        ],
-        demoUrl: "https://azaan1.netlify.app/",
-        githubUrl: "https://github.com/Nusrat323/azaan"
       },
       
       
