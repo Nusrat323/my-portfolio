@@ -1,9 +1,8 @@
-import { ArrowRight, ExternalLink, Github } from 'lucide-react';
-import React from 'react';
-import { motion } from 'framer-motion';
+import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 
-const projects = [
-
+const frontendProjects = [
   {
     id: 1,
     title: "FluxFame AI Automation Agency Website",
@@ -101,7 +100,62 @@ const projects = [
         githubUrl: "https://github.com/Nusrat323/CodeAlpha_music-player"
       },
       
-      
+];
+
+const automationProjects = [
+  {
+    id: 1,
+    title: "DentalFlow - Full Dental Clinic Automation System",
+    description:
+      "A complete GoHighLevel automation system built for a dental clinic, including landing pages, booking flow, CRM setup, AI receptionist, and advanced patient re-engagement workflows to increase bookings and reduce no-shows.",
+    image: "/projects/dentalflow.png",
+    tags: [
+      "GoHighLevel",
+      "CRM Automation",
+      "Funnels",
+      "AI Receptionist",
+      "Email/SMS Automation",
+      "Appointment System"
+    ],
+    demoUrl: "https://dental.fluxfame.site/"
+  },
+  {
+    id: 2,
+    title: "YourHome - Real Estate CRM & Automation System",
+    description:
+      "A complete GoHighLevel real estate automation system designed for agencies to capture, qualify, and convert leads efficiently through AI-driven workflows, automated follow-ups, and smart appointment management.",
+    image: "/projects/yourhome.png",
+    tags: [
+      "GoHighLevel",
+      "Real Estate CRM",
+      "Lead Automation",
+      "AI Chat Assistant",
+      "Funnels",
+      "Email/SMS Automation",
+      "Appointment Scheduling",
+      "Pipeline Management"
+    ],
+  
+    features: [
+      "Custom Real Estate Landing Page",
+      "Lead Capture & Qualification System",
+      "AI Live Chat Assistant",
+      "Automated Lead Nurturing",
+      "Calendar & Property Viewing Scheduling",
+      "AI Appointment Booking & Rescheduling",
+      "Appointment Confirmation & Reminder Workflows",
+      "Opportunity Pipeline Management",
+      "Lead Tagging & Segmentation",
+      "No-Show Recovery Automation",
+      "Email Marketing Automation",
+      "CRM Contact Management",
+      "Trigger Link & Workflow Automation",
+      "Post-Viewing Follow-Up System"
+    ],
+  
+    demoUrl: "https://home.fluxfame.site/"
+  },
+  
 ];
 
 const cardVariants = {
@@ -109,80 +163,124 @@ const cardVariants = {
   visible: (i) => ({
     opacity: 1,
     y: 0,
-    transition: {
-      delay: i * 0.2,
-      duration: 0.6,
-      ease: "easeOut"
-    }
-  })
+    transition: { delay: i * 0.15, duration: 0.5 },
+  }),
 };
 
 const ProjectsSection = () => {
-    return (
-        <section id='projects' className='py-24 px-4 relative'>
-            <div className='container mx-auto max-w-5xl'>
-                <h2 className='text-3xl md:text-4xl font-bold mb-4 text-center'>
-                  Featured <span className='text-primary'> Projects</span>
-                </h2>
-                <p className='text-center text-muted-foreground mb-12 max-w-2xl mx-auto'>
-                  Here are some of my recent projects. Each project was carefully crafted with attention to details, performance, and user experience.
+  const [activeTab, setActiveTab] = useState("frontend");
+
+  const data =
+    activeTab === "frontend" ? frontendProjects : automationProjects;
+
+  return (
+    <section id="projects" className="py-24 px-4 relative">
+      <div className="container mx-auto max-w-5xl">
+
+        {/* Heading */}
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
+          Featured <span className="text-primary">Projects</span>
+        </h2>
+
+        <p className="text-center text-muted-foreground mb-10">
+          Showcasing my frontend development work and business automation systems.
+        </p>
+
+        {/* Tabs */}
+        <div className="flex justify-center gap-4 mb-12">
+          <button
+            onClick={() => setActiveTab("frontend")}
+            className={`px-5 py-2 rounded-full border transition ${
+              activeTab === "frontend"
+                ? "bg-primary text-white"
+                : "bg-transparent border-primary/30"
+            }`}
+          >
+            Frontend Projects
+          </button>
+
+          <button
+            onClick={() => setActiveTab("automation")}
+            className={`px-5 py-2 rounded-full border transition ${
+              activeTab === "automation"
+                ? "bg-primary text-white"
+                : "bg-transparent border-primary/30"
+            }`}
+          >
+            Automation Projects
+          </button>
+        </div>
+
+        {/* Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {data.map((project, index) => (
+            <motion.div
+              key={project.id}
+              className="group bg-card rounded-lg overflow-hidden border shadow-sm"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              custom={index}
+              variants={cardVariants}
+            >
+              <div className="h-48 overflow-hidden">
+                <img
+                  src={project.image}
+                  className="w-full h-full object-cover group-hover:scale-110 transition"
+                />
+              </div>
+
+              <div className="p-6">
+                <div className="flex flex-wrap gap-2 mb-3">
+                  {project.tags.map((tag, i) => (
+                    <span
+                      key={i}
+                      className="px-2 py-1 text-xs rounded-full bg-primary/20"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
+                <h3 className="text-lg font-semibold mb-2">
+                  {project.title}
+                </h3>
+
+                <p className="text-sm text-muted-foreground mb-4">
+                  {project.description}
                 </p>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-                {projects.map((project, index) => (
-                    <motion.div
-                        key={project.id}
-                        className='group bg-card rounded-lg overflow-hidden border shadow-xs card-hover'
-                        initial="hidden"
-                        whileInView="visible"
-                        viewport={{ once: true, amount: 0.3 }}
-                        custom={index}
-                        variants={cardVariants}
-                    >
-                        <div className='h-48 overflow-hidden'>
-                            <img 
-                              src={project.image} 
-                              alt={project.title} 
-                              className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-110'
-                            />
-                        </div>
+                <div className="flex gap-3">
+                  {project.demoUrl && (
+                    <a href={project.demoUrl} target="_blank">
+                      <ExternalLink size={18} />
+                    </a>
+                  )}
 
-                        <div className='p-6'>
-                            <div className='flex flex-wrap gap-2 mb-4'>
-                                {project.tags.map((tag, idx) => (
-                                    <span key={idx} className='px-2 py-1 text-xs font-medium border rounded-full 
-                                    bg-primary/20 text-secondary-foreground'>{tag}</span>
-                                ))}
-                            </div>
-
-                            <h3 className='text-xl font-semibold mb-1'>{project.title}</h3>
-                            <p className='text-muted-foreground text-sm mb-4'>{project.description}</p>
-
-                            <div className='flex justify-between items-center'>
-                                <div className='flex space-x-3'>
-                                  <a href={project.demoUrl} target='_blank' rel="noreferrer"
-                                     className='text-foreground/80 hover:text-primary transition-colors duration-300'>
-                                      <ExternalLink size={20} />
-                                  </a>
-                                  <a href={project.githubUrl} target='_blank' rel="noreferrer"
-                                     className='text-foreground/80 hover:text-primary transition-colors duration-300'>
-                                      <Github size={20} />
-                                  </a>
-                                </div>
-                            </div>
-                        </div>
-                    </motion.div>
-                ))}
+                  {project.githubUrl && (
+                    <a href={project.githubUrl} target="_blank">
+                      <Github size={18} />
+                    </a>
+                  )}
                 </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
 
-                <div className='text-center mt-12'>
-                  <a className='cosmic-button w-fit flex items-center mx-auto gap-2' href='https://github.com/Nusrat323' target='_blank'>
-                    Check My Github <ArrowRight size={16} />
-                  </a>
-                </div>
-            </div>
-        </section>
-    );
+        {/* CTA */}
+        <div className="text-center mt-12">
+          <a
+            className="cosmic-button flex items-center mx-auto gap-2 w-fit"
+            href="https://github.com/Nusrat323"
+            target="_blank"
+          >
+            Check My GitHub <ArrowRight size={16} />
+          </a>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default ProjectsSection;
