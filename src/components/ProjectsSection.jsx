@@ -53,6 +53,25 @@ const frontendProjects = [
   },
   {
     id: 5,
+    title: "CleanFlow Cleaning Services Landing Page",
+    description:
+      "A fully responsive cleaning-services landing page with a scroll-aware navbar, animated hero with video modal, testimonial carousel, FAQ accordion, and a fully functional booking form with validation and a confirmation modal — built as a component-driven single-page site with smooth-scroll navigation between sections.",
+    image: "/projects/cleanflow.png",
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "Lucide React",
+      "React Icons",
+      "Component Architecture",
+      "Form Validation",
+      "Responsive Design",
+      "Smooth Scroll Navigation"
+    ],
+    demoUrl: "https://your-cleanflow-demo-url.com",
+    githubUrl: "https://github.com/your-username/cleanflow"
+  },
+  {
+    id: 6,
     title: "Azaan – Call to Prayer",
     description:
       "A frontend Islamic web application that plays live 5-waqt Azaan automatically based on the user’s country and prayer times. Built with a peaceful, calming UI, smooth animations, daily short duas, and Surah audio playback. Fully responsive and optimized for all devices to provide a serene user experience.",
@@ -68,7 +87,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/azaan"
   },
       {
-        id: 6,
+        id: 7,
         title: "E-commerce Frontend Website",
         description:
           "A clean and responsive e-commerce website interface featuring product listings, filtering, shopping cart, checkout page, and dynamic UI components.",
@@ -80,7 +99,7 @@ const frontendProjects = [
       
       
       {
-        id: 7,
+        id: 8,
         title: "SwiftCart E-commerce Website",
         description:
           "A responsive frontend e-commerce website with dynamic product fetching from Fake Store API, interactive product modals, category filters, and a cart sidebar. Features multiple pages including Home, Products, About, and Contact with responsive design.",
@@ -90,7 +109,7 @@ const frontendProjects = [
         githubUrl: "https://github.com/Nusrat323/swiftcart",
       },
       {
-        id: 8,
+        id: 9,
         title: "BeatWave Music Player",
         description:
           "A modern, responsive web-based music player built with HTML, CSS, and JavaScript. Features include play/pause, next/previous track, shuffle and repeat, dynamic playlist, volume control, and a sleek glassmorphic UI. The background dynamically adapts to the currently playing song's album cover for a premium experience.",
