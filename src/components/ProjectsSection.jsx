@@ -67,8 +67,8 @@ const frontendProjects = [
       "Responsive Design",
       "Smooth Scroll Navigation"
     ],
-    demoUrl: "https://your-cleanflow-demo-url.com",
-    githubUrl: "https://github.com/your-username/cleanflow"
+    demoUrl: "https://cleanflow12.netlify.app/",
+    githubUrl:"https://github.com/Nusrat323/cleanflow"
   },
   {
     id: 6,
