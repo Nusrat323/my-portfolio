@@ -42,6 +42,30 @@ const frontendProjects = [
   },
   {
     id: "frontend-3",
+    title: "FreshCart - Modern Grocery E-Commerce Frontend Website",
+    description:
+      "A fully responsive modern grocery e-commerce frontend website featuring product listings, category browsing, product search, product details, shopping cart, secure checkout, Cash on Delivery (COD), order history, order details, user authentication, and a protected admin dashboard. The admin panel allows product management (add, edit, delete) and store settings management. Built with reusable React components, Context API for global state management, Local Storage for data persistence, and a scalable architecture ready for backend/API integration.",
+    image: "/projects/freshcart.png",
+    tags: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "React Router DOM",
+      "Context API",
+      "Local Storage",
+      "Lucide React",
+      "Component Architecture",
+      "Admin Dashboard",
+      "Authentication",
+      "Responsive Design",
+      "Modern UI/UX",
+      "E-Commerce"
+    ],
+    demoUrl: "https://fresh-cart01.netlify.app/",
+    githubUrl: "https://github.com/Nusrat323/freshcart"
+  },
+  {
+    id: "frontend-4",
     title: "Photography Website with Admin Panel",
     description:
       "A professional photography portfolio website with an admin dashboard to manage galleries and content. Includes smooth animations and a stylish, mobile-friendly UI.",
@@ -51,7 +75,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/labid-frontend"
   },
   {
-    id: "frontend-4",
+    id: "frontend-5",
     title: "Restaurant Frontend Website",
     description:
       "A modern, fully responsive multi-page restaurant website built using React and Tailwind CSS. Designed with a clean UI, elegant layout, and optimized performance.",
@@ -61,7 +85,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/restaurant"
   },
   {
-    id: "frontend-5",
+    id: "frontend-6",
     title: "Plant Care Website",
     description:
       "A small full-stack plant-care web application featuring plant listings, an upload page, backend APIs, Firebase authentication, and the ability to manage your own uploaded plants.",
@@ -71,7 +95,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/assignment10"
   },
   {
-    id: "frontend-6",
+    id: "frontend-7",
     title: "CleanFlow Cleaning Services Landing Page",
     description:
       "A fully responsive cleaning-services landing page with a scroll-aware navbar, animated hero with video modal, testimonial carousel, FAQ accordion, and a fully functional booking form with validation and a confirmation modal — built as a component-driven single-page site with smooth-scroll navigation between sections.",
@@ -90,7 +114,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/cleanflow"
   },
   {
-    id: "frontend-7",
+    id: "frontend-8",
     title: "Azaan – Call to Prayer",
     description:
       "A frontend Islamic web application that plays live 5-waqt Azaan automatically based on the user's country and prayer times. Built with a peaceful, calming UI, smooth animations, daily short duas, and Surah audio playback. Fully responsive and optimized for all devices to provide a serene user experience.",
@@ -106,7 +130,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/azaan"
   },
   {
-    id: "frontend-8",
+    id: "frontend-9",
     title: "E-commerce Frontend Website",
     description:
       "A clean and responsive e-commerce website interface featuring product listings, filtering, shopping cart, checkout page, and dynamic UI components.",
@@ -116,7 +140,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/menswear"
   },
   {
-    id: "frontend-9",
+    id: "frontend-10",
     title: "SwiftCart E-commerce Website",
     description:
       "A responsive frontend e-commerce website with dynamic product fetching from Fake Store API, interactive product modals, category filters, and a cart sidebar. Features multiple pages including Home, Products, About, and Contact with responsive design.",
@@ -182,23 +206,25 @@ const automationProjects = [
 
 
 const cardVariants = {
-  hidden: { opacity: 0, y: 40, scale: 0.96 },
+  hidden: { opacity: 0, y: 24 },
   visible: (i) => ({
     opacity: 1,
     y: 0,
-    scale: 1,
     transition: {
-      duration: 0.55,
-      delay: (i % 3) * 0.12,
-      ease: [0.22, 1, 0.36, 1]
+      duration: 0.7,
+      delay: (i % 3) * 0.1,
+      ease: [0.16, 1, 0.3, 1]
     }
   })
 };
 
 const gridVariants = {
   hidden: { opacity: 0 },
-  visible: { opacity: 1 },
-  exit: { opacity: 0, transition: { duration: 0.2 } }
+  visible: {
+    opacity: 1,
+    transition: { duration: 0.3, ease: "easeOut" }
+  },
+  exit: { opacity: 0, transition: { duration: 0.2, ease: "easeIn" } }
 };
 
 const ProjectsSection = () => {
@@ -267,8 +293,9 @@ const ProjectsSection = () => {
                 variants={cardVariants}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: true, amount: 0.25 }}
+                viewport={{ once: true, amount: 0.15, margin: "0px 0px -100px 0px" }}
                 className="group bg-card rounded-2xl overflow-hidden border border-border/60 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-primary/10 hover:border-primary/40"
+                style={{ willChange: "opacity, transform" }}
               >
                 
                 <div className="relative h-48 overflow-hidden">
