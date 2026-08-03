@@ -93,7 +93,7 @@ const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4 text-left">Contact With Me</h4>
               <div className="flex space-x-6 justify-start md:justify-start">
-                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nusrat-trisha-036469350">
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nusrat-trisha-036469350/">
                   <Linkedin className="h-6 w-6 text-primary hover:text-primary/80 transition-colors" />
                 </a>
                 <a target="_blank" rel="noreferrer" href="https://www.instagram.com/nusrat_jahann1/">
