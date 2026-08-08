@@ -76,16 +76,6 @@ const frontendProjects = [
   },
   {
     id: "frontend-5",
-    title: "Restaurant Frontend Website",
-    description:
-      "A modern, fully responsive multi-page restaurant website built using React and Tailwind CSS. Designed with a clean UI, elegant layout, and optimized performance.",
-    image: "/projects/project1.png",
-    tags: ["React", "Tailwind", "Responsive UI/UX"],
-    demoUrl: "https://aquamarine-unicorn-6414d3.netlify.app/",
-    githubUrl: "https://github.com/Nusrat323/restaurant"
-  },
-  {
-    id: "frontend-6",
     title: "Plant Care Website",
     description:
       "A small full-stack plant-care web application featuring plant listings, an upload page, backend APIs, Firebase authentication, and the ability to manage your own uploaded plants.",
@@ -95,7 +85,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/assignment10"
   },
   {
-    id: "frontend-7",
+    id: "frontend-6",
     title: "CleanFlow Cleaning Services Landing Page",
     description:
       "A fully responsive cleaning-services landing page with a scroll-aware navbar, animated hero with video modal, testimonial carousel, FAQ accordion, and a fully functional booking form with validation and a confirmation modal — built as a component-driven single-page site with smooth-scroll navigation between sections.",
@@ -114,7 +104,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/cleanflow"
   },
   {
-    id: "frontend-8",
+    id: "frontend-7",
     title: "Azaan – Call to Prayer",
     description:
       "A frontend Islamic web application that plays live 5-waqt Azaan automatically based on the user's country and prayer times. Built with a peaceful, calming UI, smooth animations, daily short duas, and Surah audio playback. Fully responsive and optimized for all devices to provide a serene user experience.",
@@ -130,7 +120,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/azaan"
   },
   {
-    id: "frontend-9",
+    id: "frontend-8",
     title: "E-commerce Frontend Website",
     description:
       "A clean and responsive e-commerce website interface featuring product listings, filtering, shopping cart, checkout page, and dynamic UI components.",
@@ -140,7 +130,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/menswear"
   },
   {
-    id: "frontend-10",
+    id: "frontend-9",
     title: "SwiftCart E-commerce Website",
     description:
       "A responsive frontend e-commerce website with dynamic product fetching from Fake Store API, interactive product modals, category filters, and a cart sidebar. Features multiple pages including Home, Products, About, and Contact with responsive design.",
