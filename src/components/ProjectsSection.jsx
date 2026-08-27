@@ -22,6 +22,27 @@ const frontendProjects = [
   },
   {
     id: "frontend-2",
+    title: "AutoForge — Full-Stack Vehicle Service Platform",
+    description:
+      "A full-stack vehicle service platform built with React and Firebase, featuring secure user authentication, service management, appointment booking, customer profiles, Firestore data management, and an admin dashboard for managing users, services, and platform operations.",
+    image: "/projects/autoforge.png",
+    tags: [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Firestore",
+      "Google Auth",
+      "Authentication",
+      "Admin Dashboard",
+      "Service Booking",
+      "CRUD Operations",
+      "Responsive Design"
+    ],
+    demoUrl: "https://autoforge01.netlify.app/",
+    githubUrl: "https://github.com/Nusrat323/autoforge"
+  },
+  {
+    id: "frontend-3",
     title: "Nest&Key - Premium Real Estate Frontend Website",
     description:
       "A fully responsive premium real estate frontend website featuring property listings, detailed property pages, agent profiles, blog pages, saved properties, FAQ, contact, privacy policy, and smooth page transitions. Built with reusable React components, modern UI design, responsive layouts, and interactive animations to deliver a seamless user experience across all devices.",
@@ -41,7 +62,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/realestate1"
   },
   {
-    id: "frontend-3",
+    id: "frontend-4",
     title: "CareNest Nanny & Senior Care Platform",
     description:
       "A full-stack care platform with caregiver discovery, Google authentication, booking system, Firestore data management, and an admin dashboard.",
@@ -59,7 +80,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/carenest"
   },
   {
-    id: "frontend-4",
+    id: "frontend-5",
     title: "FreshCart - Modern Grocery E-Commerce Frontend Website",
     description:
       "A fully responsive modern grocery e-commerce frontend website featuring product listings, category browsing, product search, product details, shopping cart, secure checkout, Cash on Delivery (COD), order history, order details, user authentication, and a protected admin dashboard. The admin panel allows product management (add, edit, delete) and store settings management. Built with reusable React components, Context API for global state management, Local Storage for data persistence, and a scalable architecture ready for backend/API integration.",
@@ -83,7 +104,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/freshcart"
   },
   {
-    id: "frontend-5",
+    id: "frontend-6",
     title: "Photography Website with Admin Panel",
     description:
       "A professional photography portfolio website with an admin dashboard to manage galleries and content. Includes smooth animations and a stylish, mobile-friendly UI.",
@@ -93,7 +114,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/labid-frontend"
   },
   {
-    id: "frontend-6",
+    id: "frontend-7",
     title: "Plant Care Website",
     description:
       "A small full-stack plant-care web application featuring plant listings, an upload page, backend APIs, Firebase authentication, and the ability to manage your own uploaded plants.",
@@ -103,7 +124,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/assignment10"
   },
   {
-    id: "frontend-7",
+    id: "frontend-8",
     title: "CleanFlow Cleaning Services Landing Page",
     description:
       "A fully responsive cleaning-services landing page with a scroll-aware navbar, animated hero with video modal, testimonial carousel, FAQ accordion, and a fully functional booking form with validation and a confirmation modal — built as a component-driven single-page site with smooth-scroll navigation between sections.",
@@ -122,7 +143,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/cleanflow"
   },
   {
-    id: "frontend-8",
+    id: "frontend-9",
     title: "Azaan – Call to Prayer",
     description:
       "A frontend Islamic web application that plays live 5-waqt Azaan automatically based on the user's country and prayer times. Built with a peaceful, calming UI, smooth animations, daily short duas, and Surah audio playback. Fully responsive and optimized for all devices to provide a serene user experience.",
@@ -138,7 +159,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/azaan"
   },
   {
-    id: "frontend-9",
+    id: "frontend-10",
     title: "E-commerce Frontend Website",
     description:
       "A clean and responsive e-commerce website interface featuring product listings, filtering, shopping cart, checkout page, and dynamic UI components.",
@@ -148,7 +169,7 @@ const frontendProjects = [
     githubUrl: "https://github.com/Nusrat323/menswear"
   },
   {
-    id: "frontend-10",
+    id: "frontend-11",
     title: "SwiftCart E-commerce Website",
     description:
       "A responsive frontend e-commerce website with dynamic product fetching from Fake Store API, interactive product modals, category filters, and a cart sidebar. Features multiple pages including Home, Products, About, and Contact with responsive design.",
