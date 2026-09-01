@@ -158,26 +158,8 @@ const frontendProjects = [
     demoUrl: "https://azaan1.netlify.app/",
     githubUrl: "https://github.com/Nusrat323/azaan"
   },
-  {
-    id: "frontend-10",
-    title: "E-commerce Frontend Website",
-    description:
-      "A clean and responsive e-commerce website interface featuring product listings, filtering, shopping cart, checkout page, and dynamic UI components.",
-    image: "/projects/project2.png",
-    tags: ["React", "Tailwind", "E-commerce UI/UX"],
-    demoUrl: "https://gentlify-d55df.web.app/",
-    githubUrl: "https://github.com/Nusrat323/menswear"
-  },
-  {
-    id: "frontend-11",
-    title: "SwiftCart E-commerce Website",
-    description:
-      "A responsive frontend e-commerce website with dynamic product fetching from Fake Store API, interactive product modals, category filters, and a cart sidebar. Features multiple pages including Home, Products, About, and Contact with responsive design.",
-    image: "/projects/project6.png",
-    tags: ["HTML", "Tailwind CSS", "JavaScript", "API Integration", "Responsive Design"],
-    demoUrl: "https://swiftcart01.netlify.app/",
-    githubUrl: "https://github.com/Nusrat323/swiftcart"
-  }
+  
+  
 ];
 
 const automationProjects = [
